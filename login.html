@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Médica - Inicio de Sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-login">
+        <div class="tarjeta-login">
+            <h1 class="titulo-app">👴 Agenda Salud</h1>
+            <p class="subtitulo">Acceso para Familiares</p>
+            
+            <form action="login.php" method="POST">
+                <div class="grupo-formulario">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="grupo-formulario">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <button type="submit" class="boton-primario">Iniciar Sesión</button>
+            </form>
+            
+            <p class="enlace-registro">
+                ¿Aún no tienes cuenta? <a href="registro_adulto.html">Regístrate aquí</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Médica - Registro (Paso 2)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-login">
+        <div class="tarjeta-login">
+            <h1 class="titulo-app">👴 Agenda Salud</h1>
+            <p class="subtitulo">Registro (Paso 1/2): Datos del Adulto Mayor</p>
+            
+            <form action="registro_adulto.php" method="POST">
+                
+                <div class="grupo-formulario">
+                    <label for="nombre_am">Nombre Completo del Adulto Mayor</label>
+                    <input type="text" id="nombre_am" name="nombre_am" required>
+                </div>
+                
+                <div class="grupo-formulario">
+                    <label for="parentesco">Parentesco (Ej: Padre, Abuela, Abuelo)</label>
+                    <input type="text" id="parentesco" name="parentesco" required>
+                </div>
+                
+                <button type="submit" class="boton-primario">Completar Registro y Entrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

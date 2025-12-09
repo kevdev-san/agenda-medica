@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Médica - Registro (Paso 1)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-login">
+        <div class="tarjeta-login">
+            <h1 class="titulo-app">👴 Agenda Salud</h1>
+            <p class="subtitulo">Registro (Paso 2/2): Tus Datos</p>
+            
+            <form action="registro_familiar.php" method="POST">
+                <div class="grupo-formulario">
+                    <label for="nombre">Tu Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="grupo-formulario">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="grupo-formulario">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <div class="grupo-formulario">
+                    <label for="password_confirm">Confirmar Contraseña</label>
+                    <input type="password" id="password_confirm" name="password_confirm" required>
+                </div>
+                
+                <button type="submit" class="boton-primario">Continuar al Paso 2</button>
+            </form>
+            
+            <p class="enlace-registro">
+                ¿Ya tienes cuenta? <a href="login.html">Inicia sesión aquí</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
